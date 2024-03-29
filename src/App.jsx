@@ -49,7 +49,7 @@ function App() {
           <label className=' text-xl'>Numbers</label>
         </div>
         <div className="flex items-center gap-x-1">
-          <input type="checkbox" defaultChecked={numberAllowed} id="numberInput"  onChange={() => {setCharAllowed(prev => !prev)}} />
+          <input type="checkbox" defaultChecked={charAllowed} id="numberInput"  onChange={() => {setCharAllowed(prev => !prev)}} />
           <label className=' text-xl'>Characters</label>
         </div>
       </div>
